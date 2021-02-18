@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "119300090277",
+    "firebase_url": "https://fnb-foods-default-rtdb.firebaseio.com",
+    "project_id": "fnb-foods",
+    "storage_bucket": "fnb-foods.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119300090277:android:d729df17b6e29e4784a04c",
+        "android_client_info": {
+          "package_name": "com.example.fnbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119300090277-o72n0ct5l9gaqllmbiul2k5hbhuld5ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhhk9gm167scdA6cKcNIV17yOXyn-UVzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119300090277-o72n0ct5l9gaqllmbiul2k5hbhuld5ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119300090277:android:d0d2cf93546c1f1484a04c",
+        "android_client_info": {
+          "package_name": "com.example.fnbfoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119300090277-o72n0ct5l9gaqllmbiul2k5hbhuld5ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhhk9gm167scdA6cKcNIV17yOXyn-UVzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119300090277-o72n0ct5l9gaqllmbiul2k5hbhuld5ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:ignore="MissingDefaultResource" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#BC3D3D"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMenuItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/showAllItem"/>
+            <RelativeLayout
+                android:id="@+id/showAllItem"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/menu_item_no_choose"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_alignParentBottom="true"
+                >
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:duplicateParentState="true"
+                    app:srcCompat="@drawable/view_all" />
+
+                <TextView
+                    android:id="@+id/txtMenuItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_toRightOf="@id/imageView16"
+                    android:text="Thực đơn 1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#CDDC39"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerItems"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#2196F3"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewItemOrder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/rr1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <LinearLayout
+                android:id="@+id/rr1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_alignParentBottom="true"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/numberOfGoods"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiền hàng (1)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_8sdp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:drawableLeft="@drawable/ic_baseline_fastfood_24"/>
+                        <TextView
+                            android:id="@+id/moneyOnGoods"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_15sdp"
+                            android:text="250,000đ"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_8sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_15sdp"
+                            android:text="Khuyến mãi"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_8sdp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_15sdp"
+                            android:text="250,000đ"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_8sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:drawableLeft="@drawable/ic_baseline_fastfood_24"
+                            android:text="Thuế Phí"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_8sdp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_15sdp"
+                            android:text="250,000đ"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_8sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:text="Chiết khấu"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_8sdp"
+
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_15sdp"
+                            android:text="250,000đ"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_8sdp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Thành tiền"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_8sdp" />
+
+                    <TextView
+                        android:id="@+id/txtTotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:text="2.500.000đ"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10sdp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/txtTotal"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <Button
+                            android:id="@+id/btnSaveOrder"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="Lưu"
+                            android:textSize="@dimen/_8sdp"
+                            android:background="@drawable/custom_btn"/>
+                        <Button
+
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="Thanh toán"
+                            android:textSize="@dimen/_8sdp"
+                            android:background="@drawable/custom_btn"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

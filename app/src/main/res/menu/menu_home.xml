@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+      <item android:title="@string/bill"
+    android:icon="@drawable/ic_baseline_assignment_24"
+    app:showAsAction="always"/>
+    <item android:title="@string/diagram"
+        android:icon="@drawable/ic_baseline_place_24"
+        app:showAsAction="always"/>
+    <item android:title="@string/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"/>
+    <item android:title="@string/restaurant_setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="always"/>
+    <item android:title="@string/order"
+        android:icon="@drawable/ic_baseline_room_service_24"
+        app:showAsAction="always"/>
+</menu>

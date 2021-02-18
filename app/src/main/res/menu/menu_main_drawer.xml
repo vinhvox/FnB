@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/home"
+    android:id="@+id/navHome"
+    android:icon="@drawable/ic_baseline_home"/>
+    <item android:title="@string/bill"
+        android:id="@+id/navBill"
+        android:icon="@drawable/bill"/>
+    <item android:title="@string/items"
+        android:id="@+id/navItem"
+        android:icon="@drawable/ingredients"/>
+    <item android:title="@string/inventory"
+        android:id="@+id/navInventory"
+        android:icon="@drawable/open_box"/>
+    <item android:title="@string/restaurant_setting"
+        android:id="@+id/navRestaurantSetting"
+        android:icon="@drawable/store_setting"/>
+    <item android:title="@string/revenue_and_expenditure_management"
+        android:id="@+id/navRevenueExpenditure"
+        android:icon="@drawable/exchange"/>
+    <item android:title="@string/shift_management"
+        android:id="@+id/navShiftManagement"
+        android:icon="@drawable/deposit"/>
+    <item android:title="@string/management"
+        android:id="@+id/navManagement"
+        android:icon="@drawable/management"/>
+    <item android:title="@string/logout"
+        android:id="@+id/navLogout"
+        android:icon="@drawable/exit"/>
+
+
+</menu>

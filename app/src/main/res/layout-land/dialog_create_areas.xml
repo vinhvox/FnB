@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_500sdp"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="13dp">
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:text="Thêm khu vực"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tên khu vực"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <EditText
+                    android:id="@+id/edtAreaName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/custom_edt"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/_10sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Số bàn muốn thêm"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <EditText
+                        android:id="@+id/edtCountTable"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:background="@drawable/custom_edt"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:padding="@dimen/_10sdp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tối đa 100 bàn mỗi khu vực"
+                        android:textSize="@dimen/_8sdp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Số thứ tự bắt đầu"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <EditText
+                        android:id="@+id/edtNumberStart"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:background="@drawable/custom_edt"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:padding="@dimen/_10sdp"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_10sdp" />
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Số thứ tự tăng dần từ số bắt đầu"
+                        android:textSize="@dimen/_8sdp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loại bàn"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/rbtOption1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_select"
+                    android:button="@drawable/ic_baseline_circle_24_gray"
+                    android:checked="true"
+                    android:text="Nhỏ (1 - 2 chỗ)"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <RadioButton
+                    android:id="@+id/rbtOption2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/radio_select"
+                    android:button="@drawable/ic_baseline_crop_square_24"
+                    android:text="Trung bình (3 - 4 chỗ)"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <RadioButton
+                    android:id="@+id/rbtOption3"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/radio_select"
+
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/ic_baseline_calendar_view_day_24"
+                    android:text="Lớn (>= 5 chỗ)"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+                <Button
+                    android:id="@+id/btnSaveAreas"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/custom_btn"
+                    android:text="Thêm khu vực"
+                    android:textSize="@dimen/_10sdp" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

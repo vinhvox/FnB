@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical">
+    <ImageView
+        android:id="@+id/imgStoreSetting"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/store_setting"/>
+    <TextView
+        android:id="@+id/txtTitleSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/restaurant_information"
+        android:layout_marginStart="10px"
+        android:textSize="@dimen/_10sdp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

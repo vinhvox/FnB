@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_500sdp"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp">
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                app:srcCompat="@drawable/delete_48px" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/imageView20"
+                android:text="Khách hàng"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView63"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Họ"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <EditText
+                            android:id="@+id/edtFirstNameCustomer"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp"
+                            android:background="@drawable/custom_edt"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <TextView
+                            android:id="@+id/textView64"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Số điện thoại"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <EditText
+                            android:id="@+id/edtCustomerPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp"
+                            android:background="@drawable/custom_edt"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <TextView
+                            android:id="@+id/textView65"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sinh nhật"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <EditText
+                            android:id="@+id/edtBirthDayCustomer"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp"
+                            android:background="@drawable/custom_edt"
+                            android:ems="10"
+                            android:inputType="textPersonName" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView66"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tên (bắt buộc)"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <EditText
+                            android:id="@+id/edtCustomerName"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp"
+                            android:background="@drawable/custom_edt"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <TextView
+                            android:id="@+id/textView67"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Email"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <EditText
+                            android:id="@+id/edtCustomerEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp"
+                            android:background="@drawable/custom_edt"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <TextView
+                            android:id="@+id/textView68"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Giới tính"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+
+                        <EditText
+                            android:id="@+id/edtSexCustomer"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_25sdp"
+                            android:background="@drawable/custom_edt"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10sdp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Địa chỉ cụ thể"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+
+                <EditText
+                    android:id="@+id/edtAddressCustomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/custom_edt"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ghi chú"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+
+                <EditText
+                    android:id="@+id/edtNoteCustomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/custom_edt"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+
+                <Button
+                    android:id="@+id/btnAddCustomerA"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/custom_btn"
+                    android:text="Thêm khách hàng"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

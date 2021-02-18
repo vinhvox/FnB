@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">FnB App</string>
+    <string name="h1">Phần mềm quản lý nhà hàng, quán cafe</string>
+    <string name="h2">Giải pháp công nghệ trong quá trình phục vụ</string>
+    <string name="use_it_now">Dùng ngay</string>
+    <string name="login">Đăng nhập</string>
+    <string name="h3">ĐĂNG KÝ SỬ DỤNG FnB- PHỤC VỤ</string>
+    <string name="name_restaurant">Tên nhà hàng</string>
+    <string name="full_name">Họ tên của bạn</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="email_registration">Email đăng ký</string>
+    <string name="local">Bạn ở Quận / Huyện nào ?</string>
+    <string name="back">Về trang giới thiệu</string>
+    <string name="registration">ĐĂNG KÝ NGAY</string>
+    <string name="website">codefresher.vn</string>
+    <string name="phone">0337313056</string>
+    <string name="login_restaurant">ĐĂNG NHẬP TÀI KHOẢN CHỦ NHÀ HÀNG</string>
+    <string name="h4">Nhập mã xác nhận được gửi qua SMS đến số</string>
+    <string name="verification">Mã xác nhận</string>
+    <string name="send_to">Gửi lại sau </string>
+    <string name="h5">Bạn cần nhập chính xác mã xác nhận được gửi đến số điện thoại.\n
+Nếu đã yêu cầu Gửi lại nhưng vẫn không được mã vui lòng Bấm vào đây</string>
+    <string name="home">Trang chủ</string>
+    <string name="bill">Hóa đơn</string>
+    <string name="items">Mặt hàng</string>
+    <string name="inventory">Tồn kho</string>
+    <string name="restaurant_setting">Thiết lập nhà hàng</string>
+    <string name="revenue_and_expenditure_management">Quản lý thu chi</string>
+    <string name="shift_management">Quản lý ca </string>
+    <string name="management">Quản lý</string>
+    <string name="author">Vinh Võ</string>
+    <string name="h6">Chủ nhà hàng</string>
+    <string name="diagram">Sơ đồ</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="order">Đặt bàn</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="restaurant_information">Thông tin nhà hàng</string>
+    <string name="restaurant_name">Tên nhà hàng</string>
+    <string name="restaurant_code">Mã cửa hàng</string>
+    <string name="phone_of_restaurant">Số điên thoại của nhà hàng</string>
+    <string name="address">Địa chỉ</string>
+    <string name="province_city">Tỉnh/Thành phố</string>
+    <string name="district">Quận/Huyện</string>
+    <string name="business_model">Mô hình kinh doanh</string>
+    <string name="business_areas">Lĩnh vực kinh doanh</string>
+    <string name="currency">Tiền tệ</string>
+    <string name="save">Lưu</string>
+    <string name="table_management">Quản lý bàn</string>
+    <string name="table_layout">Bố cục bàn và quản lý đơn</string>
+    <string name="service">Phí dịch vụ</string>
+    <string name="service_mess">Sử dụng tính năng tính phí dịch vụ</string>
+    <string name="tax_administration">Quản lý thuế</string>
+    <string name="tax_administration_mess">Thiết lập thuế, phục vụ cho quá trình bán hàng của bạn</string>
+    <string name="pin_code_confirmation">Xác nhận mã pin</string>
+    <string name="pin_code_mess">Khi thực hiện các thao tác liên quan tới đơn và thiết lập quan trọng có phân quyền</string>
+    <string name="sale_setup">Thiết lập bán hàng</string>
+    <string name="report_setting">Cài đặt báo cáo</string>
+    <string name="printer">Máy in</string>
+    <string name="payment_methods">Phương thức thanh toán</string>
+    <string name="account">Tài khoản</string>
+    <string name="kitchen_management">Quản lý bar/bếp</string>
+    <string name="shipment">Giao hàng</string>
+    <string name="report_closing_time">Thời gian chốt báo cáo</string>
+    <string name="rep_closing_time_mess">Thời gian chốt báo cáo là thời gian ghi nhận báo cáo kết thúc một ngày bán hàng. Dữ liệu trong ngày sẽ được tổng hợp tới thời điểm này</string>
+    <string name="hour">Giờ</string>
+    <string name="mine">Phút</string>
+    <string name="report_closing_time_default">Thời gian chốt báo cáo mặc định là 00:00 giờ hàng ngày. Nếu thời gian chốt báo cáo là 02:00, dữu liệu sẽ được tổng hợp từ 02:00 tới 01:59 ngày tiếp theo</string>
+    <string name="printer_at_counter">Máy in tại quầy thu ngân</string>
+    <string name="mess_connect_printer">Vui lòng kết nối máy in</string>
+    <string name="setup_invoice_print_form_information">Thiết lập thông tin mẫu in hóa đơn</string>
+    <string name="number_of_prints">Số lần in biên lai tối đa</string>
+    <string name="printer_at_kitchen">Máy in bar/bếp</string>
+    <string name="kitchen_default">Bếp mặc định</string>
+    <string name="pay_mess">Bạn có thể thiết lập các phương thức thanh toán phù hợp với cửa hàng</string>
+    <string name="cash">Tiền mặt</string>
+    <string name="card_visa">Thẻ Visa</string>
+    <string name="momo">Momo</string>
+    <string name="zalo">Zalo pay</string>
+    <string name="overview_account">Tổng quan về tài khoản</string>
+    <string name="owner_name">Họ tên chủ nhà hàng</string>
+    <string name="list_account">Danh sách tài khoản</string>
+    <string name="create_area">Tạo khu vực</string>
+    <string name="area">Khu vực</string>
+    <string name="table_number">Số bàn</string>
+    <string name="setup_area">thiết lập khu vực</string>
+    <string name="list_items">Danh sách mặt hàng</string>
+    <string name="category">Danh mục</string>
+    <string name="menu">Thực đơn</string>
+    <string name="search_items">Tìm kiếm mặt hàng</string>
+    <string name="price">Giá thành</string>
+    <string name="add_item">Thêm mặt hàng</string>
+    <string name="item_name">Tên mặt hàng</string>
+    <string name="enter_item_name">Nhập tên mặt hàng</string>
+    <string name="price_value">0đ</string>
+    <string name="image_item">Hình đại diện</string>
+    <string name="edit">Sửa</string>
+    <string name="unit">Đơn vị</string>
+    <string name="mess_add_item">Thêm mặt hàng vào danh mục, thực đơn để dễ dàng tìm kiếm khi bán hàng.</string>
+    <string name="by_weight">Tính tiền theo trọng lượng</string>
+    <string name="warehouse_link">Liên kết kho hàng</string>
+    <string name="inventory_management">Quản lý hàng tồn</string>
+    <string name="raw_material_management">Quản lý nguyên liệu</string>
+    <string name="mess_warehouse">* Liên kết kho hàng để theo dõi thông tin tồn kho thực tế</string>
+    <string name="description">Mô tả</string>
+    <string name="open_camera">Mở camera</string>
+    <string name="open_gallery">Mở thư viện ảnh</string>
+    <string name="denied">Permission denied...</string>
+    <string name="mess_upload">Đang tải dữ liệu lên...</string>
+    <string name="hint_category">Nhập tên danh mục</string>
+    <string name="hint_menu">Nhập menu</string>
+    <string name="complete">Hoàn tất</string>
+    <string name="mess_empty">Yêu cầu nhập thông tin</string>
+    <string name="delete">Xóa</string>
+    <string-array name="tinh">
+       <item>An Giang</item>
+        <item>Bà Rịa - Vũng Tàu</item>
+        <item>Bắc Giang</item>
+        <item>Bắc Kạn</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cao Bằng</item>
+        <item>Cần Thơ</item>
+        <item>Đà Nẵng</item>
+        <item>Đắk Lắk</item>
+        <item>Đắk Nông</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hậu Giang</item>
+        <item>Hà Nội</item>
+        <item>Hải Phòng</item>
+        <item>Hòa Bình</item>
+        <item>Hưng Yên</item>
+        <item>Khánh Hòa</item>
+        <item>Kiên Giang</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lâm Đồng</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa Thiên Huế</item>
+        <item>Tiền Giang</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+        <item>Phú Yên</item>
+        <item>TP HCM</item>
+    </string-array>
+    <string-array name="hanoi">
+        <item>Quận Ba Đình</item>
+        <item>Quận Hoàn Kiếm</item>
+        <item>Quận Tây Hồ</item>
+        <item>Quận Long Biên</item>
+        <item>Quận Cầu Giấy</item>
+        <item>Quận Đống Đa</item>
+        <item>Quận Hai Bà Trưng</item>
+        <item>Quận Hoàng Mai</item>
+        <item>Quận Thanh Xuân</item>
+        <item>Huyện Sóc Sơn</item>
+        <item>Huyện Đông Anh</item>
+
+    </string-array>
+
+
+</resources>
